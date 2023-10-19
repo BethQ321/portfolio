@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+{
+  box-sizing: border-box;
+}
+
+/* Defines general requirements for the entire page. */
+body {
+  margin: auto;
+  background-color: #91C7B1;
+  font-family: "Sarala", arial, sans-serif;
+}
+
+/* Defines requirements for the header, aligning the text to center, and including padding and margins to create space between elements. */
+header {
+  background-color: #28666E;
+  color: #F1F7ED;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Defines requirements for different text throughout the page. */
+h1 {
+  font-size: 55px;
+  margin: 0px 0px -20px 0px;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Assigns all text, except the header, a specific color. */
+h3, p, ul, ol {
+  color: #2C2627;
+}
+
+/* Defines requirements for images, like rounding the corners and defining size based on a portion of the website size.  The display parameter allows it to be centered. */
+img {
+  border-radius: 12%;
+  width: 30%;
+  margin: auto;
+  display: block;
+}
+
+/* Defines properties of the image border. */
+.img-frame {
+  border: solid #28666E;
+  border-width: 4px 8px 8px 4px;
+  margin: auto;
+  width: 30%;
+}
+
+/* Defines properties of the lists.  The display parameter helps on centering the lists. */
+ul, ol {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Used to center the lists. */
+.container {
+  text-align: center;
+}
+
+/* Defines background color for footer. */
+footer {
+  background-color: #54494B;
+}
+
+/* Defines color of text used in footer. */
+footer p {
+  color: #F1F7ED;
+}
+
+/* Defines parameters for the horizontal ruled lines within the page. */
+hr {
+  border: solid #28666E 3px;
+  background-color: #F1F7ED;
+  width: 90%;
+  height: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Styles the links on the web page to align with color scheme used. */
+a:link    { color: #28666E; }
+a:visited { color: #2C2627; }
+a:hover   { color: #002500; }
+a:active  { color: #F1F7ED; }
+
