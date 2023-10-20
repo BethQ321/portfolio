@@ -1,8 +1,10 @@
+/* Defines the height and width of the html to the entire page. */
 html {
   height: 100%;
   width: 100%;
 }
 
+/* Sets the box-sizing to the new border-box standard as opposed to the default content-box standard that was previously used. */
 {
   box-sizing: border-box;
 }
@@ -11,6 +13,7 @@ html {
 body {
   margin: auto;
   background-color: #91C7B1;
+  /* Calls the Google font Sarala linked to in the head of the HTML file. */
   font-family: "Sarala", arial, sans-serif;
 }
 
@@ -50,7 +53,7 @@ h3, p, ul, ol {
   color: #2C2627;
 }
 
-/* Defines requirements for images, like rounding the corners and defining size based on a portion of the website size.  The display parameter allows it to be centered. */
+/* Defines requirements for images, like rounding the corners and defining size based on a proportion of the website size.  The display parameter allows it to be centered within the width of the web page. */
 img {
   border-radius: 12%;
   width: 30%;
@@ -66,13 +69,13 @@ img {
   width: 30%;
 }
 
-/* Defines properties of the lists.  The display parameter helps on centering the lists. */
+/* Defines properties of the lists.  The display parameter helps on centering the lists by creating a block of the list text that can be centered. */
 ul, ol {
   display: inline-block;
   text-align: left;
 }
 
-/* Used to center the lists. */
+/* Used to center the block created that contains the lists. */
 .container {
   text-align: center;
 }
@@ -91,6 +94,7 @@ footer p {
 hr {
   border: solid #28666E 3px;
   background-color: #F1F7ED;
+  /* Creates a width of the horizontal line based on a percentage of the width of the entire page. */
   width: 90%;
   height: 2px;
   margin-top: 5px;
@@ -102,4 +106,3 @@ a:link    { color: #28666E; }
 a:visited { color: #2C2627; }
 a:hover   { color: #002500; }
 a:active  { color: #F1F7ED; }
-
